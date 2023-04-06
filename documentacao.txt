@@ -1,0 +1,22 @@
+fromulario flask-WTForms
+
+- E uma extensao do formulario que torna o processamento de formularios mais facil de gerenciar
+- valida a entrada de usuario
+- fornece formulario seguro com token CSRF
+-renderiza os elemntos do formulario dinamicamente
+- fornece upload de arquivo que funciona com o flask uploads
+- tanto o flask, quanto o django, fazem uso dos formularios WTForms.
+
+
+
+
+CSRF = CROSS-site request forgery - e um tipo de ataque de web sites maliciosos.
+-também chamando de ataque de um clique ou transporte de sessao.
+- ocorre quando uma requisiçao HTTP é feita entre sites na tentativa de se passar por um usuario legitimo.
+
+
+--documentação:
+https://stforms.readthedocs.io/eng/3.0.x
+https://wtforms.readthedocs.io/en/3.0.x/crash-course
+https://github.com/toddbirchard/flasklogin-tutorial
+
